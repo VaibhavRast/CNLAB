@@ -78,7 +78,7 @@ $cbr0 attach-agent $udp0
 
 
 set err [new ErrorModel]
-$err set rate_ 0.0
+$err set rate_ 0.0 #change rate to 0.01 so on for xgraph
 $ns lossmodel $err $n2 $n3
 
 
